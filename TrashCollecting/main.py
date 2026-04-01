@@ -81,7 +81,7 @@ while playing:
     timeElapsed = time.time() - start_time
     if timeElapsed >= 60:
         if score > 50:
-            text = myFont.render("Bin Loot Succesful", True, RED)
+            text = myFont.render("Bin Loot Successful", True, RED)
             changeBackground("winscreen.jpg")
 
 
